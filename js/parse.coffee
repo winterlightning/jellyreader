@@ -86,7 +86,7 @@ window.process_data = (data,site)->
   return unless data.items 
   for item in data.items
     feedItem = FeedItem.findByAttribute('title', item.title)
-    image = Reader.get_first_image(item.content)
+    image = Reader.get_first_image(item.content or image.description)
     if not feedItem
       obj =
         'link': item.link
