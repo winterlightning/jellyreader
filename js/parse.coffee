@@ -2,7 +2,7 @@
 sync_object = 
   "GDrive":
     "key": "762177952485-isd11r5irt52dgdn2hriu2rd90e84vr2.apps.googleusercontent.com"
-    "scope": "https://www.googleapis.com/auth/drive"
+    "scope": "openid https://www.googleapis.com/auth/drive https://www.googleapis.com/auth/plus.me"
     "app_name": "jellyreader"
   "Dropbox":
     "key": "q5yx30gr8mcvq4f"
